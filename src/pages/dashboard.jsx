@@ -24,7 +24,7 @@ export default function WeatherDashboard() {
     setLoading(true);
     setError(null);
 
-    const apiKey = "1d3771ac1c0048c6b2934421252401";
+    const apiKey = import.meta.env.VITE_WEATHER_API_KEY;
     if (!apiKey) {
       setError(new Error("API Key is not defined."));
       console.error("API Key is missing!");
@@ -34,7 +34,7 @@ export default function WeatherDashboard() {
 
     try {
       const response = await axios.get(
-        `http://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${query}&days=5&aqi=no`
+        `https://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${query}&days=5&aqi=no`
       );
       setWeatherData(response.data);
     } catch (err) {
@@ -43,6 +43,7 @@ export default function WeatherDashboard() {
     } finally {
       setLoading(false);
     }
+    
   };
 
   // Fetch default city weather on mount
