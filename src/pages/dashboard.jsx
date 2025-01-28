@@ -149,7 +149,7 @@ function SearchBar({ city, setCity, handleSearch, handleKeyPress }) {
     try {
       const apiKey = import.meta.env.VITE_WEATHER_API_KEY;
       const response = await axios.get(
-        `http://api.weatherapi.com/v1/search.json?key=${apiKey}&q=${query}`
+        `https://api.weatherapi.com/v1/search.json?key=${apiKey}&q=${query}`
       );
       setSuggestedCities(response.data);
     } catch (err) {
