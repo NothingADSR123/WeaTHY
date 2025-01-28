@@ -24,7 +24,7 @@ export default function WeatherDashboard() {
     setLoading(true);
     setError(null);
 
-    const apiKey = import.meta.env.VITE_WEATHER_API_KEY;
+    const apiKey = "1d3771ac1c0048c6b2934421252401";
     if (!apiKey) {
       setError(new Error("API Key is not defined."));
       console.error("API Key is missing!");
