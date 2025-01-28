@@ -1,7 +1,12 @@
 # 🌦️ WeaTHY 🌍
 
-!!![Weather App Screenshot]((https://github.com/NothingADSR123/WeaTHY/blob/55a200f50802d255416c03a831fc8b43a4bd0399/src/assets/logo.jpeg)
-)
+<div align="center">
+  <img src="/src/assets/logo.jpeg" width="200" height="200">
+</div>
+
+
+
+
 
 
 A **responsive** and **user-friendly** weather application built using **React.js** and **Vite**. This app gives you **real-time weather updates** for cities around the world 🌎. It fetches accurate weather data using the **Weather API**, showing you the current conditions, a 5-day forecast, and even extra details like **air quality** and **temperature trends**. Stay prepared no matter where you are! ☀️🌧️❄️
