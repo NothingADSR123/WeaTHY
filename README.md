@@ -1,4 +1,8 @@
-# 🌦️ Weather App 🌍
+# 🌦️ WeaTHY 🌍
+
+!!![Weather App Screenshot]((https://github.com/NothingADSR123/WeaTHY/blob/55a200f50802d255416c03a831fc8b43a4bd0399/src/assets/logo.jpeg)
+)
+
 
 A **responsive** and **user-friendly** weather application built using **React.js** and **Vite**. This app gives you **real-time weather updates** for cities around the world 🌎. It fetches accurate weather data using the **Weather API**, showing you the current conditions, a 5-day forecast, and even extra details like **air quality** and **temperature trends**. Stay prepared no matter where you are! ☀️🌧️❄️
 
@@ -57,22 +61,9 @@ Your app is now running locally! 🌟
 ## 🌐 Deployment
 
 The app is deployed and live on **Vercel**. Check it out here:  
-[Your Deployed App URL](https://your-app-url.vercel.app)
-
+https://wea-thy-nine.vercel.app/
 ---
 
-## 📸 Screenshots
-
-Check out how the app looks!  
-(You can add some screenshots or a GIF showcasing the app in action here)
-
----
-
-## 📜 License
-
-This project is licensed under the **MIT License**. Feel free to use, modify, or contribute! 🚀
-
----
 
 ## 🙏 Acknowledgements
 
